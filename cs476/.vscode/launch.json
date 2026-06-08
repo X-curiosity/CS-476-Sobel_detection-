@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/magbi/Desktop/Sobel_acc/cs476/virtualprototype/programs/grayscale/src",
+      "program": "/Users/magbi/Desktop/Sobel_acc/cs476/virtualprototype/programs/grayscale/src/build/Debug/outDebug"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+$date
+	Sun Apr 26 15:03:42 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ramDmaCi_tb $end
+$scope module DUT $end
+$var wire 10 ! blockSize [9:0] $end
+$var wire 8 " burstSize [7:0] $end
+$var wire 32 # busStartAddr [31:0] $end
+$var wire 8 $ ciN [7:0] $end
+$var wire 1 % clock $end
+$var wire 1 & clockB_inv $end
+$var wire 2 ' ctrlRegOut [1:0] $end
+$var wire 1 ( ctrlRegWE $end
+$var wire 9 ) memAddr [8:0] $end
+$var wire 9 * memStartAddr [8:0] $end
+$var wire 1 + memWE $end
+$var wire 32 , memWriteData [31:0] $end
+$var wire 4 - paramWE [3:0] $end
+$var wire 1 . reset $end
+$var wire 1 / start $end
+$var wire 2 0 statusRegIn [1:0] $end
+$var wire 32 1 valueA [31:0] $end
+$var wire 32 2 valueB [31:0] $end
+$var wire 32 3 mem_dout_a [31:0] $end
+$var wire 32 4 memReadData [31:0] $end
+$var parameter 8 5 customId $end
+$var reg 1 6 done $end
+$var reg 9 7 mem_addr_a [8:0] $end
+$var reg 1 8 mem_we_a $end
+$var reg 10 9 r_blockSize [9:0] $end
+$var reg 8 : r_burstSize [7:0] $end
+$var reg 32 ; r_busStartAddr [31:0] $end
+$var reg 2 < r_ctrlRegOut [1:0] $end
+$var reg 1 = r_ctrlRegWE $end
+$var reg 9 > r_memStartAddr [8:0] $end
+$var reg 4 ? r_paramWE [3:0] $end
+$var reg 2 @ read_state [1:0] $end
+$var reg 32 A result [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10101010 5
+$end
+#0
+$dumpvars
+b0 A
+b0 @
+bx ?
+bx >
+x=
+bx <
+bx ;
+bx :
+bx 9
+08
+b0 7
+06
+bx 4
+bx 3
+b0 2
+b0 1
+bz 0
+0/
+1.
+bx -
+bz ,
+z+
+bx *
+bz )
+x(
+bx '
+1&
+0%
+b0 $
+bx #
+bx "
+bx !
+$end
+#5
+0&
+1%
+#10
+1&
+0%
+#15
+0&
+1%
+#20
+1&
+0.
+0%
+#25
+0(
+0=
+b0 -
+b0 ?
+0&
+1%
+#30
+1&
+0%
+#35
+0&
+1%
+#40
+1&
+b10010001101000101011001111000 2
+b1000000101 1
+1/
+b1010101 $
+0%
+#45
+0&
+1%
+#50
+1&
+0/
+0%
+#55
+0&
+1%
+#60
+1&
+0%
+#65
+0&
+1%
+#70
+1&
+b11011110101011011011111011101111 2
+1/
+b10101010 $
+0%
+#75
+16
+18
+b101 7
+0&
+1%
+#80
+1&
+0/
+0%
+#85
+08
+06
+0&
+1%
+#90
+1&
+b11001010111111101011101010111110 2
+b1000001010 1
+1/
+0%
+#95
+b11011110101011011011111011101111 3
+16
+18
+b1010 7
+0&
+1%
+#100
+1&
+0/
+0%
+#105
+bx 3
+08
+06
+0&
+1%
+#110
+1&
+b101 1
+1/
+0%
+#115
+b11001010111111101011101010111110 3
+b1 @
+b101 7
+0&
+1%
+#120
+1&
+0/
+0%
+#125
+b11011110101011011011111011101111 3
+b10 @
+0&
+1%
+#130
+1&
+0%
+#135
+b0 @
+16
+b11011110101011011011111011101111 A
+0&
+1%
+#140
+1&
+b1010 1
+1/
+0%
+#145
+b1 @
+b1010 7
+b0 A
+06
+0&
+1%
+#150
+1&
+0/
+0%
+#155
+b11001010111111101011101010111110 3
+b10 @
+0&
+1%
+#160
+1&
+0%
+#165
+b0 @
+16
+b11001010111111101011101010111110 A
+0&
+1%
+#170
+1&
+b11111111111111111111111111111111 1
+1/
+0%
+#175
+b0 A
+06
+0&
+1%
+#180
+1&
+0/
+0%
+#185
+0&
+1%
+#190
+1&
+0%
+#195
+0&
+1%
+#200
+1&
+0%
+#205
+0&
+1%
+#210
+1&
+b101 1
+1/
+0%
+#215
+b1 @
+b101 7
+0&
+1%
+#220
+1&
+0/
+0%
+#225
+b11011110101011011011111011101111 3
+b10 @
+0&
+1%
+#230
+1&
+0%
+#235
+b0 @
+16
+b11011110101011011011111011101111 A
+0&
+1%
+#240
+1&
+0%
+#245
+b0 A
+06
+0&
+1%
+#250
+1&
+0%
+#255
+0&
+1%
+#260
+1&
+0%

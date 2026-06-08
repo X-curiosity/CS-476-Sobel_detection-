@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/magbi/cs476/virtualprototype/programs/helloWorld/build-release-or1420",
+            "binaryPath": "/Users/magbi/cs476/virtualprototype/programs/helloWorld/build-release-or1420/hello.elf",
+            "binaryArgs": []
+        }
+    ]
+}
